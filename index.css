@@ -39,12 +39,18 @@ body{
     '. .'
     '. .';
     grid-gap: 10px;
-    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 10px;
+    justify-content: center;
 }
+
 .small-grid-container > div {
     text-align: center;
-    padding: 10px 0;
+    padding: 10px 0 10px 0;
     font-size: 1.5rem;
+    width: 30rem;
+
 }
 
 header{
@@ -65,19 +71,34 @@ h2{
 h3 {
     font-size: 2.5rem;
     color: #1C0466;
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0;
+    width: 25rem;
+}
+
+h4{
+    font-size: 2rem;
+    color: #1C0466;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0;
+    width: 30rem;
 }
 .box{
     height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+.box-large{
+    max-width: 50vw;
+}
 .box-span{
     grid-area: hfArea;
 }
 
-.box-span-sm{
-    grid-area: smArea;
-}
 .box-span2{
     grid-area: myArea2;
 }
