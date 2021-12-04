@@ -28,3 +28,11 @@ title Home Journal Structure
 ```
 
 
+##Color palette
+>
+> * violet red: #f75590
+> * champagne pink: #fce4d8
+> * Jasmine: #fbd87f
+> * Celeste: #b5f8fe
+> * Sea Green Crayola: #10ffcb
+> 
