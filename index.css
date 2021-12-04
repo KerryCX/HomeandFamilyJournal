@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+}
+nav{
+    display: block;
+    color: #1C0466;
+    font-size: 2.5rem;
+}
+body{
+    background-color: #10ffcb;
+}
+
+.grid-container{
+    display: grid;
+    grid:
+    '. myArea myArea . '
+    '. myArea myArea . '
+    '. . myArea2 myArea2 '
+    '. . myArea2 myArea2 ';
+
+    grid-gap: 10px;
+    background-color: #f75590;
+    padding: 10px;
+}
+
+.grid-container > div {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 2rem;
+}
+header{
+    color: #1C0466;
+    font-size: 1.5rem;
+    text-align: center;
+}
+h1{
+    font-size: 5rem;
+    color: #1C0466;
+}
+.box{
+    height: 300px;
+}
+.box-span{
+    grid-area: myArea;
+}
+.box-span2{
+    grid-area: myArea2;
+}
+.color-v-red{
+    /*violet red*/
+    background-color: #f75590;
+}
+.color-c-pink{
+    /*champagne pink*/
+    background-color: #fce4d8;
+}
+
+.color-Jasmine{
+    /*Jasmine*/
+    background-color: #fbd87f;
+}
+
+.color-celeste{
+    /*  Celeste*/
+    background-color: #b5f8fe;
+
+}
+
+.color-s-green-c{
+    /*  Sea Green Crayola*/
+    background-color: #10ffcb;
+}
