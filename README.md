@@ -22,6 +22,7 @@ title Home Journal Structure
 ***< Snacks
 *** Lunch
 *** Dinner
+** Fitness
 ** Reference
 *** Information
 @endwbs
