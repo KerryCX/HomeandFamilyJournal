@@ -1,6 +1,6 @@
 *{
     box-sizing: border-box;
-    font-family: broadacre-thin-2, sans-serif;
+    font-family: broadacre-regular-1, sans-serif;
     font-weight: 100;
     font-style: normal;
 }
@@ -16,11 +16,10 @@ body{
 .grid-container{
     display: grid;
     grid:
-    '. myArea myArea . '
-    '. myArea myArea . '
+    '. hfArea hfArea . '
+    '. hfArea hfArea . '
     '. . myArea2 myArea2 '
     '. . myArea2 myArea2 ';
-
     grid-gap: 10px;
     background-color: #f75590;
     padding: 10px;
@@ -31,6 +30,23 @@ body{
     padding: 20px 0;
     font-size: 2rem;
 }
+
+.small-grid-container {
+    display: grid;
+    grid:
+    '. .'
+    '. .'
+    '. .'
+    '. .';
+    grid-gap: 10px;
+    padding: 10px;
+}
+.small-grid-container > div {
+    text-align: center;
+    padding: 10px 0;
+    font-size: 1.5rem;
+}
+
 header{
     color: #1C0466;
     font-size: 1.5rem;
@@ -45,19 +61,34 @@ h2{
     font-size: 3rem;
     color: #1C0466;
 }
-.box{
-    height: 300px;
+
+h3 {
+    font-size: 2.5rem;
+    color: #1C0466;
+    padding: 20px;
 }
+.box{
+    height: auto;
+}
+
 .box-span{
-    grid-area: myArea;
+    grid-area: hfArea;
+}
+
+.box-span-sm{
+    grid-area: smArea;
 }
 .box-span2{
     grid-area: myArea2;
 }
-.color-v-red{
-    /*violet red*/
-    background-color: #f75590;
+.border-celeste{
+    border: 1px solid #b5f8fe ;
 }
+
+.color-v-red{
+     /*violet red*/
+     background-color: #f75590;
+ }
 .color-c-pink{
     /*champagne pink*/
     background-color: #fce4d8;
