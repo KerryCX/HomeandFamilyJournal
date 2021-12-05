@@ -6,11 +6,33 @@
     <script defer src="index.js"></script>
     <link rel="stylesheet" type="text/css" href="index.css">
     <link rel="stylesheet" href="https://use.typekit.net/ech0jkl.css">
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>KerryCX | Home & Family Journal</title>
 </head>
 <body>
-
+<!-- Top Navigation Menu -->
+<div class="topnav">
+    <a href="#" class="active">Logo</a>
+    <!-- Navigation links (hidden by default) -->
+    <div id="myLinks">
+        <a href="#">News</a>
+        <a href="#">Contact</a>
+        <a href="#">About</a>
+    </div>
+    <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+    </a>
+</div>
 <nav class="navbar">
+    <div class="dropdown">
+        <button class="dropbtn"><a href="index.html">Homepage</a></button>
+        <div class="dropdown-content">
+            <a href="#">Contact Me :-)</a>
+            <a href="#">About Us</a>
+        </div>
+    </div>
     <div class="dropdown">
         <button class="dropbtn"><a href="home.html">Home</a></button>
         <div class="dropdown-content">
@@ -95,36 +117,36 @@
 </nav>
 <main>
     <div class="grid-container">
-        <div class="color-c-pink box"><h3><a href="routines.html" class="font-color">Routines</a></h3></div>
-        <div class="color-Jasmine box"><h3><a href="fitness.html" class="font-color">Fitness</a></h3></div>
+        <div class="color-celeste box"><h3><a href="routines.html" class="font-color">Routines</a></h3></div>
+        <div class="color-c-pink box"><h3><a href="fitness.html" class="font-color">Fitness</a></h3></div>
         <div class="color-celeste box-span">
             <h1>Home & Family<br>Journal</h1>
             <div class="small-grid-container">
-                <div><h4 class="color-v-red box"><a href="home.html" class="font-color">Home</a></h4></div>
-                <div><h4 class="color-v-red box"><a href="family.html" class="font-color">Family</a></h4></div>
+                <h4 class="color-v-red box"><a href="home.html" class="font-color">Home</a></h4>
+                <h4 class="color-v-red box"><a href="family.html" class="font-color">Family</a></h4>
                 <div class="color-Jasmine box">Finance</div>
                 <div class="color-Jasmine box">Adults</div>
-                <div class="color-c-pink box">Car</div>
-                <div class="color-c-pink box">Children</div>
+                <div class="color-Jasmine box">Car</div>
+                <div class="color-Jasmine box">Children</div>
                 <div class="color-Jasmine box">Home Improvements</div>
                 <div class="color-Jasmine box">Pets</div>
-                <div class="color-c-pink box">Garden</div>
-                <div class="color-c-pink box">Extended</div>
+                <div class="color-Jasmine box">Garden</div>
+                <div class="color-Jasmine box">Extended</div>
             </div>
         </div>
-        <div class="color-Jasmine box"><h3><a href="meals.html" class="font-color">Meals</a></h3></div>
+        <div class="color-c-pink box"><h3><a href="meals.html" class="font-color">Meals</a></h3></div>
         <div class="color-celeste box"><h3><a href="chores.html" class="font-color">Chores</a></h3></div>
         <div class="color-v-red box border-celeste"><h3><a href="calendar.html" class="font-color">Calendar</a></h3></div>
         <div class="color-s-green-c box"><h3><a href="holidayjournals.html" class="font-color">Holiday<br>Journals</a></h3></div>
         <div class="color-s-green-c box"><h3><a href="wherethingslive.html" class="font-color">Where Things<br>Lives</a></h3></div>
         <div class="color-v-red box border-celeste"><h3><a href="photos.html" class="font-color">Photos</a></h3></div>
-        <div class="color-c-pink box-reference">
+        <div class="color-s-green-c box-reference">
             <h2>Reference</h2>
             <div class="small-grid-container">
-                <div class="color-Jasmine box">Scrapbook</div>
+                <div class="color-v-red box">Scrapbook</div>
                 <div class="color-Jasmine box">Photos <br>& Videos</div>
-                <div class="color-s-green-c box">Where Things Are</div>
-                <div class="color-s-green-c box">Archive </div>
+                <div class="color-Jasmine box">Where Things Are</div>
+                <div class="color-v-red box">Archive </div>
             </div>
         </div>
     </div>
