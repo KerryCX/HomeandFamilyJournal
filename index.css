@@ -5,10 +5,19 @@
     font-style: normal;
 }
 nav{
-    display: block;
+
     color: #1C0466;
-    font-size: 2.5rem;
+    font-size: 1rem;
+    height:3vh;
+    background-color: #f75590;
+    width:100vw;
 }
+
+nav:hover{
+    height:10vh;
+    font-size:4vh;
+    background-color: #10ffcb;
+ }
 body{
     background-color: #10ffcb;
 }
@@ -23,6 +32,7 @@ body{
     grid-gap: 10px;
     background-color: #f75590;
     padding: 10px;
+    width: 100%;
 }
 
 .grid-container > div {
@@ -49,17 +59,11 @@ body{
     text-align: center;
     padding: 10px 0 10px 0;
     font-size: 1.5rem;
-    width: 30rem;
-
+    width: 15vw;
 }
 
-header{
-    color: #1C0466;
-    font-size: 1.5rem;
-    text-align: center;
-}
 h1{
-    font-size: 5rem;
+    font-size: 3.5rem;
     color: #1C0466;
 }
 
@@ -83,13 +87,14 @@ h4{
     padding-top: 20px;
     padding-bottom: 20px;
     margin: 0;
-    width: 30rem;
+   /* width: 30rem;*/
 }
 .box{
     height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 0 auto;
 }
 
 .box-large{
@@ -97,10 +102,12 @@ h4{
 }
 .box-span{
     grid-area: hfArea;
+    width:39vw;
 }
 
-.box-span2{
+.box-reference{
     grid-area: myArea2;
+    width:39vw;
 }
 .border-celeste{
     border: 1px solid #b5f8fe ;
@@ -129,4 +136,21 @@ h4{
 .color-s-green-c{
     /*  Sea Green Crayola*/
     background-color: #10ffcb;
+}
+
+@media (max-width: 500px){
+    h1{
+        font-size: 1.5rem;
+    }
+    h2{
+        font-size: 1rem;
+    }
+
+    h3 {
+        font-size: 0.75rem;
+    }
+
+    h4{
+        font-size: 0.5rem;
+    }
 }
