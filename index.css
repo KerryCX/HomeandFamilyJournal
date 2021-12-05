@@ -22,21 +22,6 @@ body{
     display: flex;
     justify-content: space-evenly;
 }
-/*
-.home-list{
-    height: 20px;
-    width: auto;
-    background-color: #10ffcb;
-    position: relative;
-}
-
-.family-list{
-    height: 20px;
-    width: auto;
-    background-color: #10ffcb;
-    position: relative;
-}*/
-
 
 .dropdown {
     position: relative;
@@ -69,6 +54,10 @@ body{
 .dropdown:hover .dropdown-content {display: block;}
 
 .dropdown:hover .dropbtn {background-color: #f75590;}
+
+.text-sm{
+    font-size: 12px;
+}
 
 .grid-container{
     display: grid;
@@ -150,7 +139,16 @@ h4{
 }
 
 .box-large{
-    max-width: 50vw;
+    width: 100vw;
+    height: 100vh;
+    background-color: #b5f8fe;
+    margin: 20px;
+}
+
+.anchor {
+    position: relative;
+    /* Move our anchor up, this value is the same as the height of the navbar */
+    top: -55px;
 }
 .box-span{
     grid-area: hfArea;
