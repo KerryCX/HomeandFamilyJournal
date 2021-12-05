@@ -1,0 +1,34 @@
+
+.grid-container{
+    display: grid;
+    grid:
+    '. hfArea hfArea . '
+    '. hfArea hfArea . '
+    '. . myArea2 myArea2 '
+    '. . myArea2 myArea2 ';
+    grid-gap: 10px;
+    background-color: #f75590;
+    padding: 10px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.grid-container > div {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 2rem;
+}
+
+.box-span{
+    grid-area: hfArea;
+    width:39vw;
+}
+
+
+@media (max-width: 500px) {
+
+    .grid-container > div {
+        font-size: 5px;
+    }
+
+}
