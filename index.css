@@ -198,10 +198,24 @@ h4{
 
     h3 {
         font-size: 0.75rem;
+        width: 5rem;
     }
 
     h4{
         font-size: 0.5rem;
+        padding-top: 2px;
+        padding-bottom: 2px;
+    }
+
+    .grid-container > div {
+        font-size: 3px;
+    }
+
+    .small-grid-container > div {
+        text-align: center;
+        padding: 1px 0 1px 0;
+        font-size: 0.5rem;
+        width: auto;
     }
 }
 
