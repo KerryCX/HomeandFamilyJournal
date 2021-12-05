@@ -35,6 +35,9 @@ body{
     width: 100%;
 }
 
+.font-color{
+    color: #1C0466;
+}
 .grid-container > div {
     text-align: center;
     padding: 20px 0;
