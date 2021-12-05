@@ -4,23 +4,71 @@
     font-weight: 100;
     font-style: normal;
 }
-nav{
 
-    color: #1C0466;
-    font-size: 1rem;
-    height:3vh;
-    background-color: #f75590;
-    width:100vw;
-}
-
-nav:hover{
-    height:10vh;
-    font-size:4vh;
-    background-color: #10ffcb;
- }
 body{
     background-color: #10ffcb;
+    margin:0;
 }
+.navbar{
+    color: #1C0466;
+    font-size: 16px;
+    height:55px;
+    background-color: #f75590;
+    width:100%;
+    /* This navbar will always be at the top of the page when you scroll down */
+   position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+/*
+.home-list{
+    height: 20px;
+    width: auto;
+    background-color: #10ffcb;
+    position: relative;
+}
+
+.family-list{
+    height: 20px;
+    width: auto;
+    background-color: #10ffcb;
+    position: relative;
+}*/
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropbtn {
+    background-color: #f75590;
+    color: #1C0466;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f75590;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #1C0466;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {background-color: #f75590;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #f75590;}
 
 .grid-container{
     display: grid;
@@ -33,6 +81,7 @@ body{
     background-color: #f75590;
     padding: 10px;
     width: 100%;
+    margin-top: 20px;
 }
 
 .font-color{
